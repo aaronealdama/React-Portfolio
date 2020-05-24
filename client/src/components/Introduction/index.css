@@ -1,0 +1,63 @@
+.Introduction {
+    height: 10em;
+    position: relative;
+}
+
+.Introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.Introduction-img {
+    width: 200px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.Introduction-paragraph {
+    font-family: 'Questrial', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px;
+    width: 600px;
+    border-right: .1em solid #ffffff;
+    animation: typing 4s steps(30, end), /* # of steps = # of characters */
+    blink-caret 1s step-end infinite;
+}
+
+.Introduction-btn {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 15px;
+    border: 0.1em solid #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    margin-left: 40%;
+}
+
+.Introduction-btn:hover {
+    color: #ffffff;
+    background-color: #D80000
+}
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width:11.9em }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: #ffffff }
+    50% { border-color: #ffffff }
+}

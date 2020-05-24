@@ -1,0 +1,115 @@
+.SocialMedia-row {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.SocialMedia {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#Twitter {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+#Twitter:hover {
+    animation:
+        jump
+        1.0s
+}
+
+#Instagram {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    
+}
+
+#Instagram:hover {
+    animation:
+    jump
+    1.0s
+}
+
+#Github {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    
+}
+
+#Github:hover {
+    animation:
+    jump
+    1.0s
+}
+
+#LinkedIn {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%; 
+}
+
+#LinkedIn:hover {
+    animation:
+    jump
+    1.0s
+}
+
+#Gmail {
+    height: 200px;
+    width: 200px;
+}
+
+#Phone {
+    height: 200px;
+    width: 200px;
+}
+
+/* animation */
+
+@keyframes jump {
+    50% {
+        height: 230px;
+        width: 230px;
+        box-shadow: 0 0 24px #F08080;
+        transform: translateY(-50px);
+    }
+    100% {
+        top: 0px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.SocialMedia-para {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.SocialMedia-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SocialMedia-img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SocialMedia-contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}

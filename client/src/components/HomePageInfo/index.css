@@ -1,0 +1,63 @@
+.HomePageInfo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.HomePageInfo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.HomePageInfo-para {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Questrial', sans-serif;
+    color: #ffffff;
+    margin-top: 50px;
+    width: 60%;
+}
+
+.HomePageInfo-content {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePageInfo-img {
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+
+#Church {
+    height: 600px;
+    width: 400px;
+}
+
+#Church:hover {
+    height: 630px;
+    width: 410px;
+    box-shadow: 0 0 20px #DC143C;
+}
+
+#Prom {
+    height: 200px;
+    width: 400px;
+}
+
+#Prom:hover {
+    height: 220px;
+    width: 410px;
+    box-shadow: 0 0 20px #DC143C;
+}
+
+#Bois {
+    width: 400px;
+    height: 380px;
+}
+
+#Bois:hover {
+    width: 410px;
+    height: 400px;
+    box-shadow: 0 0 20px #DC143C;
+}

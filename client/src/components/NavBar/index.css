@@ -1,0 +1,23 @@
+.NavBar-list {
+    list-style-type: none;
+    display: inline;
+}
+
+.NavBar-link {
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.NavBar-link:hover {
+    font-size: 40px;
+    text-shadow: 0 0 12px #FF2400;
+}
+
+.NavBar-listItem {
+    margin-top: 20px;
+}
+

@@ -1,0 +1,16 @@
+.Logo-container {
+    display: flex;
+}
+
+.Logo-paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.Logo-img {
+    height: 55px;
+    width: 100px;
+}

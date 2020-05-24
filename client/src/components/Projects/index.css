@@ -1,0 +1,51 @@
+#JoyNey {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#JoyNey:hover {
+    height: 330px;
+    width: 550px;
+    box-shadow: 0 0 24px #E42217;
+}
+
+#LoveQuest {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#LoveQuest:hover {
+    height: 330px;
+    width: 550px;
+    box-shadow: 0 0 24px #E42217;
+}
+
+.Projects-projectPara {
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    width:  60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Projects-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.Projects-btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
